@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="320" viewBox="0 0 1200 320" role="img" aria-labelledby="title description">
+  <title id="title">Madhukar Goli — AI Systems Engineer</title>
+  <desc id="description">Profile banner for Madhukar Goli, specializing in RAG, Agentic AI, and enterprise document intelligence.</desc>
+
+  <defs>
+    <linearGradient id="background" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#06080D" />
+      <stop offset="55%" stop-color="#0B0F17" />
+      <stop offset="100%" stop-color="#101323" />
+    </linearGradient>
+
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#5EE7FF" />
+      <stop offset="52%" stop-color="#7DA5FF" />
+      <stop offset="100%" stop-color="#9080FF" />
+    </linearGradient>
+
+    <radialGradient id="cyanGlow" cx="20%" cy="15%" r="75%">
+      <stop offset="0%" stop-color="#5EE7FF" stop-opacity="0.20" />
+      <stop offset="100%" stop-color="#5EE7FF" stop-opacity="0" />
+    </radialGradient>
+
+    <radialGradient id="violetGlow" cx="85%" cy="35%" r="70%">
+      <stop offset="0%" stop-color="#9080FF" stop-opacity="0.22" />
+      <stop offset="100%" stop-color="#9080FF" stop-opacity="0" />
+    </radialGradient>
+
+    <filter id="softGlow" x="-20%" y="-30%" width="140%" height="160%">
+      <feGaussianBlur stdDeviation="5" result="blur" />
+      <feMerge>
+        <feMergeNode in="blur" />
+        <feMergeNode in="SourceGraphic" />
+      </feMerge>
+    </filter>
+  </defs>
+
+  <rect width="1200" height="320" rx="22" fill="url(#background)" />
+  <rect width="1200" height="320" rx="22" fill="url(#cyanGlow)" />
+  <rect width="1200" height="320" rx="22" fill="url(#violetGlow)" />
+
+  <circle cx="98" cy="74" r="4" fill="#5EE7FF" opacity="0.80" />
+  <circle cx="1090" cy="86" r="5" fill="#9080FF" opacity="0.75" />
+  <circle cx="1132" cy="214" r="3" fill="#63F5B0" opacity="0.72" />
+
+  <path d="M0 278 C210 239 355 310 574 276 C805 240 972 236 1200 283 L1200 320 L0 320 Z" fill="url(#accent)" opacity="0.16" />
+  <path d="M0 294 C247 255 383 321 611 289 C834 257 1005 267 1200 298" fill="none" stroke="url(#accent)" stroke-width="2" opacity="0.78" />
+
+  <g text-anchor="middle" font-family="Segoe UI, Inter, Arial, sans-serif">
+    <text x="600" y="70" fill="#5EE7FF" font-size="18" font-weight="700" letter-spacing="6">AI / ML SYSTEMS ENGINEER</text>
+    <text x="600" y="151" fill="#F5F7FB" font-size="64" font-weight="750" letter-spacing="0.5" filter="url(#softGlow)">Madhukar Goli</text>
+    <text x="600" y="202" fill="#A8B1C1" font-size="24" font-weight="500">RAG · Agentic AI · Enterprise Document Intelligence</text>
+    <text x="600" y="250" fill="#63F5B0" font-size="18" font-weight="600" letter-spacing="1.2">RETRIEVE  ·  REASON  ·  VALIDATE  ·  ACT</text>
+  </g>
+
+  <rect x="395" y="272" width="410" height="3" rx="1.5" fill="url(#accent)" />
+</svg>
